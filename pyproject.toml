@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pv-gewerbe-dach"
+version = "1.0.0"
+description = "DACH Commercial Solar PV, ? 3 Nr. 72 EStG Tax-Free (30 kWp) vs. ? 7g IAB/Sonder-AfA & EEG Feed-in Tariff Calculator (DE/AT/CH)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "DACH Digitalwerk"}]
+
+[project.scripts]
+dach-pv-gewerbe = "pv_gewerbe_dach.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

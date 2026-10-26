@@ -1,0 +1,2 @@
+[console_scripts]
+dach-pv-gewerbe = pv_gewerbe_dach.cli:main

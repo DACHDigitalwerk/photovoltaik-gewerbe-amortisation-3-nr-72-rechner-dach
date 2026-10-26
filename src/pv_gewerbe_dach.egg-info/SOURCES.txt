@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/pv_gewerbe_dach/__init__.py
+src/pv_gewerbe_dach/calculator.py
+src/pv_gewerbe_dach/cli.py
+src/pv_gewerbe_dach.egg-info/PKG-INFO
+src/pv_gewerbe_dach.egg-info/SOURCES.txt
+src/pv_gewerbe_dach.egg-info/dependency_links.txt
+src/pv_gewerbe_dach.egg-info/entry_points.txt
+src/pv_gewerbe_dach.egg-info/top_level.txt
+tests/test_calculator.py
